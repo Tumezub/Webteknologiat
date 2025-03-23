@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lomake</title>
+    <link rel="stylesheet" href="tyylilomake.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Lomake</h1>
+        <fieldset>
+            <div class="contact-row">
+                <legend>Contact information:</legend>
+
+
+                <div class="left-column">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+
+                    <label for="phone">Telephone:</label>
+                    <input type="text" id="phone" name="phone"><br>
+                </div>
+                <div class="right-column">
+                    <label>Preferred contact method:</label><br>
+                    <input type="checkbox" id="emailbox" name="emailbox"><label for="emailbox">Email</label><br>
+                    <input type="checkbox" id="phonebox" name="phonebox"><label for="phonebox">Telephone</label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback:</legend>
+            <div class="bottom-column">
+                <label for="subject">Message subject:</label>
+                <input type="text" id="subject" name="subject"><br>
+                <textarea rows="10" cols="50"></textarea><br>
+                <label for="file">Attach a file: </label>
+                <input type="file" id="file" name="file"><br>
+                <input type="submit"></td>
+            </div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
