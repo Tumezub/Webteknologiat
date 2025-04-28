@@ -1,0 +1,39 @@
+body {
+    background-color: moccasin;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15%;
+    margin-left: 10%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ingredients {
+    float: right;
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 20px;
+    width: 55%;
+    padding-right: 20%;
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+}
+
+.info {
+    margin-left: 10%;
+    font-size: medium;
+}
+
+.nappi {
+    background-color: transparent;
+    border: none;
+}
