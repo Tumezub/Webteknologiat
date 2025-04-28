@@ -1,0 +1,48 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.list-container {
+    display: block;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+.grid-item {
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-image-width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 270px;
+    height: 270px;
+    border: 2px solid black;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.nappi {
+    background-color: yellow;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.keskusta {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
